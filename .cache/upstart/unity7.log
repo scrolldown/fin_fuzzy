@@ -10,3 +10,5 @@ WARN  2017-04-02 22:33:28 unity <unknown>:0 Failed to get active window: 시간 
 WARN  2017-04-02 22:46:37 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
 WARN  2017-04-02 23:02:00 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
 WARN  2017-04-02 23:52:20 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
+WARN  2017-04-03 00:49:17 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
+WARN  2017-04-03 00:49:17 unity.glib.dbus.proxy GLibDBusProxy.cpp:487 Calling method "SyncOne" on object path: "/com/canonical/Unity/Panel/Service" failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name com.canonical.Unity.Panel.Service.LockScreen was not provided by any .service files
