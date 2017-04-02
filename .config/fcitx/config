@@ -1,0 +1,147 @@
+[Hotkey]
+# 입력기 전환
+TriggerKey=CTRL_SPACE HANGUL
+# Use extra trigger key only after using it to inactivate
+# 가능한 값:
+# True False
+#UseExtraTriggerKeyOnlyWhenUseItToInactivate=True
+# Extra key for trigger input method
+# 가능한 값:
+# R_CTRL
+# R_SHIFT
+# L_SHIFT
+# L_CTRL
+# ALT_L_SHIFT
+# ALT_R_SHIFT
+# CTRL Both
+# SHIFT Both
+# L_ALT
+# R_ALT
+# ALT Both
+# Left Super
+# Right Super
+# Super Both
+# Ctrl+Left Super
+# Ctrl+Right Super
+# Super+Left Ctrl
+# Super+Right Ctrl
+# Disabled
+# Custom
+#SwitchKey=L_SHIFT
+# 커스텀 변경키
+#CustomSwitchKey=
+# 다른 입력 방법
+#ActivateKey=
+# Inactivate Input Method
+#InactivateKey=
+# 입력기 사이에 스크롤을 위한 단축키 활성
+# 가능한 값:
+# True False
+#IMSwitchKey=True
+# 입력기 사이에 스크롤 할 때 비활성화 포함
+# 가능한 값:
+# True False
+#IMSwitchIncludeInactive=False
+# 입력기 사이에 스크롤
+# 가능한 값:
+# CTRL_SHIFT
+# ALT_SHIFT
+# CTRL_SUPER
+# ALT_SUPER
+#IMSwitchHotkey=CTRL_SHIFT
+# 설정 다시읽기
+#ReloadConfig=CTRL_5
+# 두 입력 사이의 시간 간격
+#TimeInterval=250
+# 가상 키보드 전환
+#VKSwitchKey=CTRL_ALT_B
+# Remind 모드 전환
+#RemindSwitchKey=
+# Full Width Character 모드 전환
+#FullWidthSwitchKey=
+# Full Width Punc 모드 전환
+#PuncSwitchKey=CTRL_.
+# 이전 페이지
+#PrevPageKey=- UP
+# 다음 페이지
+#NextPageKey== DOWN
+# Choose Second and Third Candidate Word
+#SecondThirdCandWordKey=
+# 모든 입력정보 및 설정 저장
+#SaveAllKey=CTRL_ALT_S
+# Embeded Preedit 전환
+#SwitchPreedit=CTRL_ALT_P
+# 이전 후보단어
+#PrevWord=SHIFT_TAB
+# 다음 후보 단어
+#NextWord=TAB
+
+[Program]
+# fcitx가 실제 시작하기 전 멈추는 초
+#DelayStart=0
+# 윈도우 사이에 상태 공유
+# 가능한 값:
+# No
+# All
+# PerProgram
+#ShareStateAmongWindow=No
+# 디폴트 입력기 상태
+# 가능한 값:
+# Inactive
+# Active
+#DefaultInputMethodState=Inactive
+
+[Output]
+# Type half width Punc After a Number
+# 가능한 값:
+# True False
+#HalfPuncAfterNumber=True
+# Remind 모드에서 페이징 끄기
+# 가능한 값:
+# True False
+#RemindModeDisablePaging=True
+# 상태가 토글 될 때 커밋
+# 가능한 값:
+# True False
+#SendTextWhenSwitchEng=True
+# 후보 단어 수
+#CandidateWordNumber=5
+# Phrase의 팀 주기
+# 가능한 값:
+# True False
+#PhraseTips=True
+# Do not commit preedit text when unfocus a window
+# 가능한 값:
+# True False
+#DontCommitPreeditWhenUnfocus=False
+
+[Appearance]
+# Show Input Method Hint After Input method changed
+# 가능한 값:
+# True False
+#ShowInputWindowAfterTriggering=True
+# Show Input Method Hint After Input method changed and Focus in
+# 가능한 값:
+# True False
+#ShowInputWindowWhenFocusIn=False
+# Input Method Hint will be only shown when state is active
+# 가능한 값:
+# True False
+#ShowInputWindowOnlyWhenActive=True
+# 입력 속도 보이기
+# 가능한 값:
+# True False
+#ShowInputSpeed=False
+# 버전 보이기
+# 가능한 값:
+# True False
+#ShowVersion=False
+# 사전편집 문자열만 있으면 입력 윈도우 보이지 않기
+# 가능한 값:
+# True False
+#HideInputWindowWhenOnlyPreeditString=False
+# Do not show input window if there is only one candidate and preedit
+# 가능한 값:
+# True False
+#HideInputWindowWhenOnlyOneCandidate=False
+
