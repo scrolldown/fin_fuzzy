@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                      "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en"><head><meta property="og:type" content="website">
+<meta property="og:image" content="https://bugzilla.mozilla.org/extensions/OpenGraph/web/moz-social-bw-rgb-32x32.png">
+<meta property="og:title" content="Bugzilla Main Page">
+<meta property="og:url" content="https://bugzilla.mozilla.org/index.cgi">
+    <title>Bugzilla Main Page</title>
+
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="Top" href="https://bugzilla.mozilla.org/">
+
+
+<link href="data/assets/0e23ecc5b834c616bee361a006319c57.css?1490708526" rel="stylesheet" type="text/css">
+
+<link href="data/assets/b0b1908ab659598d87991af783290b7d.css?1490708526" rel="stylesheet" type="text/css">
+
+      
+
+    
+<script nonce="cZ1KLGrYPXTYleNXjanytokLbuafw9DjvpzESF0d6xtSPPqK" type="text/javascript" src="data/assets/ebf7f6a1b777bdc4cdb7c5177ccfd887.js?1490708523"></script>
+
+    <script nonce="cZ1KLGrYPXTYleNXjanytokLbuafw9DjvpzESF0d6xtSPPqK" type="text/javascript">
+    <!--
+          YAHOO.namespace('bugzilla');
+          if ( "onpagehide" in window || YAHOO.env.ua.gecko) {
+              YAHOO.util.Event._simpleRemove(window, "unload",
+                                             YAHOO.util.Event._unload);
+          }
+
+        
+        function unhide_language_selector() {
+            $('#lang_links_container').removeClass('bz_default_hidden');
+        } 
+        $(document).ready(unhide_language_selector);
+
+        
+        var BUGZILLA = {
+            param: {
+                cookiepath: '\/',
+                maxusermatches: 50
+            },
+            constant: {
+                COMMENT_COLS: 80
+            },
+            string: {
+                
+
+                attach_desc_required:
+                    'You must enter a Description for this attachment.',
+                component_required:
+                    'You must select a Component for this bug.',
+                description_required:
+                    'You must enter a Description for this bug.',
+                short_desc_required:
+                    'You must enter a Summary for this bug.',
+                version_required:
+                    'You must select a Version for this bug.'
+            }
+        };
+
+
+    // -->
+    </script>
+<script nonce="cZ1KLGrYPXTYleNXjanytokLbuafw9DjvpzESF0d6xtSPPqK" type="text/javascript" src="data/assets/d41d8cd98f00b204e9800998ecf8427e.js?1490708523"></script>
+
+    
+
+    
+    <link rel="search" type="application/opensearchdescription+xml" title="Bugzilla@Mozilla" href="./search_plugin.cgi">
+    <meta name="referrer" content="origin-when-crossorigin"><link rel="shortcut icon" href="extensions/BMO/web/images/favicon.ico"><meta name="robots" content="noarchive">
+  </head>
+
+
+
+  <body class="bugzilla-mozilla-org
+               skin-Mozilla yui-skin-sam">
+
+
+
+<div id="header">
+
+  <div class="wrapper">
+    <table id="titles" cellspacing="0" cellpadding="0" border="0">
+    <tbody><tr>
+      <td id="title">
+        <a href="./" title="Home">Bugzilla@Mozilla</a>
+      </td>
+      <td>
+      </td>
+      <td id="moz_login">
+          <ul class="login-links">
+              <li id="moz_new_account_container_top"><a href="createaccount.cgi">New&nbsp;Account</a></li>
+
+            <li id="mini_login_container_top">
+  <span class="separator">| </span>
+  <a href="https://bugzilla.mozilla.org/login">Log In</a>
+
+  
+  
+  
+</li>
+
+          </ul>
+      </td>
+      <td id="moz_tab">
+        <a href="https://www.mozilla.org/" title="Mozilla - Home of the Mozilla Project">
+          <img src="skins/contrib/Mozilla/tabzilla.png" width="154" border="0" height="42"></a>
+      </td>
+    </tr>
+    </tbody></table>
+
+    
+      <div id="bugzilla_version">version 2017.03.28
+      </div>
+<ul class="links">
+  <li><a href="./">Home</a></li>
+  <li><span class="separator">| </span><a href="enter_bug.cgi">New</a></li>
+  <li><span class="separator">| </span><a href="describecomponents.cgi">Browse</a></li>
+  <li><span class="separator">| </span><a href="query.cgi">Search</a></li>
+
+  <li class="form quicksearch_form">
+    <span class="separator">| </span>
+    <form action="buglist.cgi" method="get" class="quicksearch_check_empty">
+    <input class="txt" id="quicksearch_top" name="quicksearch" title="Quick Search" value="" type="text">
+    <input class="btn" value="Search" id="find_top" type="submit"></form>
+    [<a href="page.cgi?id=quicksearch.html" title="Quicksearch Help">help</a>]
+  </li>
+
+  <li><span class="separator">| </span><a href="report.cgi">Reports</a></li>
+
+<li><span class="separator"> | </span><a href="page.cgi?id=productdashboard.html">Product Dashboard</a></li>
+
+</ul>
+
+  </div>
+
+
+</div> 
+
+<div id="bugzilla-body">
+
+
+<div id="message">The default bug view has changed. <a href="https://wiki.mozilla.org/BMO/Modal_UI_FAQ">See this FAQ</a>.</div>
+
+<script nonce="cZ1KLGrYPXTYleNXjanytokLbuafw9DjvpzESF0d6xtSPPqK" type="text/javascript">
+function checkQuicksearch( form ) {
+  if (form.quicksearch.value == '') {
+    alert('Please enter one or more search terms first.');
+    return false;
+  }
+  return true;
+}
+$(function () {
+    $("#quicksearchForm").on("submit", function (event) {
+        return checkQuicksearch(this);
+    });
+});
+</script>
+
+<div id="page-index">
+  <table>
+    <tbody><tr>
+      <td>
+        <h1 id="welcome"> Welcome to Bugzilla</h1>
+        <div class="intro"><a id="docs" class="bz_common_actions" href="https://bmo.readthedocs.org/"><span>Documentation</span></a></div>
+        <a id="enter_bug" class="bz_common_actions" href="enter_bug.cgi"><span>File a Bug</span></a>
+        <a id="query" class="bz_common_actions" href="query.cgi"><span>Search</span></a>
+        <a id="account" class="bz_common_actions" href="createaccount.cgi"><span>Open a New Account</span></a>
+
+        <form id="quicksearchForm" name="quicksearchForm" action="buglist.cgi">
+          <div>
+            <input id="quicksearch_main" name="quicksearch" placeholder="Enter a bug number or some search terms" title="Quick Search" type="text">
+            <input id="find" value="Quick Search" type="submit">
+            <ul class="additional_links" id="quicksearch_links">
+              <li>
+                <a href="page.cgi?id=quicksearch.html">Quick Search help</a>
+              </li>
+              <li class="bz_default_hidden" id="quicksearch_plugin">
+                |
+                <a href="javascript:window.external.AddSearchProvider('https://bugzilla.mozilla.org/search_plugin.cgi')">
+                 Install the Quick Search plugin
+                </a>
+              </li>
+            </ul>
+            <ul class="additional_links">
+              <li>
+                <a href="page.cgi?id=etiquette.html">Bugzilla Etiquette</a>
+              </li>
+              <li>
+                | <a href="https://developer.mozilla.org/en/Bug_writing_guidelines">Bug Writing Guidelines</a>
+              </li>
+            </ul>
+          </div>
+        </form>
+        <div class="outro"></div>
+      </td>
+    </tr>
+  </tbody></table>
+</div>
+</div>
+
+
+
+<div id="footer">
+  <div class="intro"></div>
+
+
+
+
+<ul id="useful-links">
+  <li id="links-actions"><ul class="links">
+  <li><a href="./">Home</a></li>
+  <li><span class="separator">| </span><a href="enter_bug.cgi">New</a></li>
+  <li><span class="separator">| </span><a href="describecomponents.cgi">Browse</a></li>
+  <li><span class="separator">| </span><a href="query.cgi">Search</a></li>
+
+  <li class="form quicksearch_form">
+    <span class="separator">| </span>
+    <form action="buglist.cgi" method="get" class="quicksearch_check_empty">
+    <input class="txt" id="quicksearch_bottom" name="quicksearch" title="Quick Search" value="" type="text">
+    <input class="btn" value="Search" id="find_bottom" type="submit"></form>
+    [<a href="page.cgi?id=quicksearch.html" title="Quicksearch Help">help</a>]
+  </li>
+
+  <li><span class="separator">| </span><a href="report.cgi">Reports</a></li>
+
+<li><span class="separator"> | </span><a href="page.cgi?id=productdashboard.html">Product Dashboard</a></li>
+
+</ul>
+  </li>
+</ul>
+
+  <div class="outro"><div id="policy_links">
+  <ul>
+    <li id="privacy_notice">
+      <a href="https://www.mozilla.org/privacy/websites/" target="_blank">Privacy Notice</a> |
+    </li>
+    <li id="legal_terms">
+      <a href="https://www.mozilla.org/about/legal/terms/mozilla" target="_blank">Legal Terms</a>
+    </li>
+  </ul>
+</div></div>
+</div>
+</body></html>
+Èz³²Ô»           Xé¿<=¡=¢           :https://bugzilla.mozilla.org/ strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+X-Backend-Server: TS
+Content-Type: text/html
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: default-src 'self'; child-src 'self'; img-src 'self' https://secure.gravatar.com; object-src 'none'; script-src 'self' 'nonce-MyuNENOTypWrjRs8IFexw8G3gp9ujVqtBEldS4WzEBV5fTHc'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; form-action 'self' https://www.google.com/search
+Date: Sun, 09 Apr 2017 04:57:31 GMT
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Length: 8761
+ original-response-headers X-Backend-Server: TS
+Content-Type: text/html
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: default-src 'self'; child-src 'self'; img-src 'self' https://secure.gravatar.com; object-src 'none'; script-src 'self' 'nonce-MyuNENOTypWrjRs8IFexw8G3gp9ujVqtBEldS4WzEBV5fTHc'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; form-action 'self' https://www.google.com/search
+Date: Sun, 09 Apr 2017 04:57:31 GMT
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Connection: close
+X-Frame-Options: SAMEORIGIN
+Content-Length: 8761
+ uncompressed-len 0   "9

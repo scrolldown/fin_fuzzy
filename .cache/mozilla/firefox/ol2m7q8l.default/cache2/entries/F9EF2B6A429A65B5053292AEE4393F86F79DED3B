@@ -2127,7 +2127,7 @@ var requirejs, require, define;
     //Set up with config info.
     req(cfg);
 }(this));
-¹÷2      Xßõ&Xßò§=šk«õ8   `    :http://localhost:8888/static/components/requirejs/require.js?v=6da8be361b9ee26c5e721e76c6d4afce strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Úû	ˆ÷2      XéÆXéÆ=¡I€k«õ8   `    :http://localhost:8888/static/components/requirejs/require.js?v=6da8be361b9ee26c5e721e76c6d4afce strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
 Content-Type: application/javascript
 Last-Modified: Thu, 09 Feb 2017 00:45:14 GMT
 Content-Security-Policy: frame-ancestors 'self'; report-uri /api/security/csp-report

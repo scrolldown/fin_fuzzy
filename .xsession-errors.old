@@ -1,20 +1,19 @@
 openConnection: connect: 그런 파일이나 디렉터리가 없습니다
 cannot connect to brltty at :0
-upstart: window-stack-bridge main process (1163) killed by HUP signal
-upstart: upstart-dbus-session-bridge main process (1191) terminated with status 1
-upstart: unity-settings-daemon main process (1227) killed by HUP signal
-upstart: bamfdaemon main process (1228) killed by TERM signal
-upstart: hud main process (1231) killed by HUP signal
-upstart: at-spi2-registryd main process (1239) killed by HUP signal
-upstart: gnome-session (Unity) main process (1240) killed by HUP signal
-upstart: unity-panel-service main process (1242) killed by HUP signal
-upstart: unity7 main process (1331) terminated with status 1
-upstart: indicator-bluetooth main process (1385) killed by TERM signal
-upstart: indicator-power main process (1386) killed by TERM signal
-upstart: indicator-datetime main process (1387) killed by TERM signal
-upstart: indicator-keyboard main process (1388) killed by HUP signal
-upstart: indicator-sound main process (1389) killed by HUP signal
-upstart: indicator-printers main process (1390) killed by TERM signal
-upstart: indicator-session main process (1391) killed by TERM signal
-upstart: indicator-application main process (1393) killed by TERM signal
+upstart: upstart-dbus-session-bridge main process (1120) terminated with status 1
+upstart: bamfdaemon main process (1156) killed by TERM signal
+upstart: indicator-bluetooth main process (1290) killed by TERM signal
+upstart: unity-settings-daemon main process (1176) killed by HUP signal
+upstart: unity-panel-service main process (1186) killed by HUP signal
+upstart: indicator-power main process (1291) killed by TERM signal
+upstart: indicator-datetime main process (1292) killed by TERM signal
+upstart: indicator-sound main process (1294) killed by HUP signal
+upstart: indicator-printers main process (1295) killed by TERM signal
+upstart: indicator-session main process (1296) killed by TERM signal
+upstart: indicator-application main process (1298) killed by TERM signal
+upstart: indicator-application pre-stop process (2033) killed by TERM signal
+upstart: gnome-session (Unity) pre-stop process (2034) killed by TERM signal
+upstart: hud main process (1174) killed by HUP signal
+upstart: gnome-session (Unity) main process (1184) killed by HUP signal
+upstart: unity7 main process (1265) terminated with status 1
 upstart: Disconnected from notified D-Bus bus

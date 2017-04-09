@@ -1,2 +1,4 @@
+Activating service name='org.gnome.Terminal'
+Successfully activated service 'org.gnome.Terminal'
 Activating service name='org.gnome.GConf'
 Successfully activated service 'org.gnome.GConf'

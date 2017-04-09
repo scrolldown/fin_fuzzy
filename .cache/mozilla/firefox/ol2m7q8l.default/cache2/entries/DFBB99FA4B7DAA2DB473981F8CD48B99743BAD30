@@ -20,7 +20,7 @@
     <script>
       require.config({
           
-          urlArgs: "v=20170402033202",
+          urlArgs: "v=20170403011329",
           
           baseUrl: '/static/',
           paths: {
@@ -117,7 +117,7 @@
  
 
   
-    data-jupyter-api-token="1a0e01a44baeb504bad36b625a561f2eac3d193ed3b65cb2"
+    data-jupyter-api-token="e55727abdaa20f7bb8763888d9836dbc537a1cd08ba9734a"
   
  
 data-base-url="/"
@@ -323,17 +323,17 @@ data-terminals-available="True"
 
 </body>
 
-</html>-7Ü@*      Xßò§Xßò§=šrÑ       %    :http://localhost:8888/tree/fuzzy_py3 necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+</html>!ÄÖ%&           Xá#<=›Eï       %    :http://localhost:8888/tree/fuzzy_py3 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'self'; report-uri /api/security/csp-report
 Content-Type: text/html; charset=UTF-8
-Etag: "cf01fb0165160c761c8178324d2ccf9159f1babf"
-Content-Security-Policy: frame-ancestors 'self'; report-uri /api/security/csp-report
+Etag: "5ce9e6f3ae885eb30b8a976ee916529035433ee5"
 Server: TornadoServer/4.4.2
-Date: Sat, 01 Apr 2017 18:34:15 GMT
 Content-Length: 12339
- original-response-headers Content-Type: text/html; charset=UTF-8
-Etag: "cf01fb0165160c761c8178324d2ccf9159f1babf"
-Content-Security-Policy: frame-ancestors 'self'; report-uri /api/security/csp-report
+Date: Sun, 02 Apr 2017 16:13:46 GMT
+ original-response-headers Content-Security-Policy: frame-ancestors 'self'; report-uri /api/security/csp-report
+Content-Type: text/html; charset=UTF-8
+Etag: "5ce9e6f3ae885eb30b8a976ee916529035433ee5"
 Server: TornadoServer/4.4.2
-Date: Sat, 01 Apr 2017 18:34:15 GMT
 Content-Length: 12339
- uncompressed-len 0 predictor::resource-count 9 predictor::http://localhost:8888/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=9b2c8d3489227115310662a343fce11c 1,1,1491071655,4096 predictor::http://localhost:8888/static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=7afb461de36accb1aa133a1710f5bc56 1,1,1491071655,4096 predictor::http://localhost:8888/static/style/style.min.css?v=974839a888beb55bbba87883fafd90fa 1,1,1491071655,4096 predictor::http://localhost:8888/custom/custom.css 1,1,1491071655,4096 predictor::http://localhost:8888/static/components/es6-promise/promise.min.js?v=f004a16cb856e0ff11781d01ec5ca8fe 1,1,1491071655,4096 predictor::http://localhost:8888/static/components/requirejs/require.js?v=6da8be361b9ee26c5e721e76c6d4afce 1,1,1491071655,4096 predictor::http://localhost:8888/static/tree/js/main.min.js?v=152f3e53c76a750de6119556d71c77a1 1,1,1491071655,4096 predictor::http://localhost:8888/static/services/contents.js?v=20170402033202 1,1,1491071655,4096 predictor::http://localhost:8888/custom/custom.js?v=20170402033202 1,1,1491071655,4096   03
+Date: Sun, 02 Apr 2017 16:13:46 GMT
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 9 predictor::http://localhost:8888/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=9b2c8d3489227115310662a343fce11c 1,1,0,4096 predictor::http://localhost:8888/static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=7afb461de36accb1aa133a1710f5bc56 1,1,0,4096 predictor::http://localhost:8888/static/style/style.min.css?v=974839a888beb55bbba87883fafd90fa 1,1,0,4096 predictor::http://localhost:8888/custom/custom.css 1,1,0,4096 predictor::http://localhost:8888/static/components/es6-promise/promise.min.js?v=f004a16cb856e0ff11781d01ec5ca8fe 1,1,0,4096 predictor::http://localhost:8888/static/components/requirejs/require.js?v=6da8be361b9ee26c5e721e76c6d4afce 1,1,0,4096 predictor::http://localhost:8888/static/tree/js/main.min.js?v=152f3e53c76a750de6119556d71c77a1 1,1,0,4096 net-response-time-onstart 244 net-response-time-onstop 359 predictor::http://localhost:8888/static/services/contents.js?v=20170403011329 1,1,0,4096 predictor::http://localhost:8888/custom/custom.js?v=20170403011329 1,1,0,4096   03

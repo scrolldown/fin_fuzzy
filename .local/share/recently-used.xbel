@@ -51,4 +51,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/scrolldown/liblist_py3_fuzz.txt" added="2017-04-09T05:27:21Z" modified="2017-04-09T05:27:21Z" visited="2017-04-09T05:27:21.627836Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-04-09T05:27:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

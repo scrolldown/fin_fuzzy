@@ -1,6 +1,28 @@
 {
   "data": [
     {
+      "enabled": true,
+      "matchFilename": "np32dsw_1227197\\.dll",
+      "last_modified": 1491558336903,
+      "details": {
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1347194",
+        "name": "Adobe Shockwave for Director, version 12.2.7.197",
+        "why": "Old versions of this plugin have critical security vulnerabilities. You can update your plugin on <a href=\"https://get.adobe.com/shockwave/\">Adobe's website</a>."
+      },
+      "versionRange": [
+        {
+          "targetApplication": [],
+          "minVersion": "0",
+          "maxVersion": "12.2.7.197",
+          "severity": 0,
+          "vulnerabilityStatus": 1
+        }
+      ],
+      "id": "97647cd8-03c5-416c-b9d3-cd5ef87ab39f",
+      "schema": 1491558238694,
+      "_status": "synced"
+    },
+    {
       "infoURL": "https://get.adobe.com/flashplayer/",
       "enabled": true,
       "matchFilename": "libflashplayer\\.so",

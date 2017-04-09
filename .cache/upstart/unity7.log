@@ -1,14 +1,13 @@
-WARN  2017-04-02 13:56:23 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
-WARN  2017-04-02 14:59:15 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
-WARN  2017-04-02 15:42:23 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
-WARN  2017-04-02 16:53:37 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
-WARN  2017-04-02 17:13:44 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
-WARN  2017-04-02 18:40:36 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
-WARN  2017-04-02 18:58:56 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
-WARN  2017-04-02 19:42:27 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
-WARN  2017-04-02 22:33:28 unity <unknown>:0 Failed to get active window: 시간 제한을 넘었습니다
-WARN  2017-04-02 22:46:37 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
-WARN  2017-04-02 23:02:00 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
-WARN  2017-04-02 23:52:20 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
-WARN  2017-04-03 00:49:17 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
-WARN  2017-04-03 00:49:17 unity.glib.dbus.proxy GLibDBusProxy.cpp:487 Calling method "SyncOne" on object path: "/com/canonical/Unity/Panel/Service" failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name com.canonical.Unity.Panel.Service.LockScreen was not provided by any .service files
+WARN  2017-04-09 16:52:58 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
+WARN  2017-04-09 17:24:29 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
+WARN  2017-04-09 18:10:55 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
+1491730741830	addons.update-checker	WARN	Update manifest for deployment-checker@mozilla.org did not contain an updates property
+1491730741867	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+1491730741878	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+1491730741891	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+1491730741979	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1491730742019	addons.update-checker	WARN	Update manifest for disable-prefetch@mozilla.org did not contain an updates property
+1491730742030	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+WARN  2017-04-09 18:39:13 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
+WARN  2017-04-09 18:45:22 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus
+WARN  2017-04-09 19:08:08 nux.inputmethod.ibus InputMethodIBus.cpp:67 Impossible to connect to connect to ibus

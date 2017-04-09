@@ -1,6 +1,56 @@
 {
   "data": [
     {
+      "guid": "msktbird@mcafee.com",
+      "enabled": true,
+      "last_modified": 1491509449188,
+      "details": {
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1354240",
+        "name": "McAfee Anti-Spam Thunderbird Extension 2.0 and lower",
+        "why": "These versions of this add-on are known to cause frequent crashes in Thunderbird."
+      },
+      "versionRange": [
+        {
+          "targetApplication": [
+            {
+              "minVersion": "52.0a1",
+              "guid": "{3550f703-e582-4d05-9a08-453d09bdfdc6}",
+              "maxVersion": "52.*"
+            }
+          ],
+          "minVersion": "0",
+          "maxVersion": "2.0",
+          "severity": 1
+        }
+      ],
+      "prefs": [],
+      "id": "9e86d1ff-727a-45e3-9fb6-17f32666daf2",
+      "schema": 1491494523390,
+      "_status": "synced"
+    },
+    {
+      "guid": "/^(\\{11112503-5e91-4299-bf4b-f8c07811aa50\\})|(\\{501815af-725e-45be-b0f2-8f36f5617afc\\})$/",
+      "enabled": true,
+      "last_modified": 1491472107658,
+      "details": {
+        "bug": "https://bugzilla.mozilla.org/show_bug.cgi?id=1354045",
+        "name": "Flash Player Updater (Malware)",
+        "why": "This add-on steals user credentials for popular websites from Facebook."
+      },
+      "versionRange": [
+        {
+          "targetApplication": [],
+          "minVersion": "0",
+          "maxVersion": "*",
+          "severity": 3
+        }
+      ],
+      "prefs": [],
+      "id": "c142360c-4f93-467e-9717-b638aa085d95",
+      "schema": 1491421290217,
+      "_status": "synced"
+    },
+    {
       "guid": "fr@fbt.ovh",
       "enabled": true,
       "last_modified": 1490898787752,
